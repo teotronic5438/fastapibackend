@@ -1,0 +1,36 @@
+
+---
+
+### ✅ `.gitignore` recomendado
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración de editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log y temporales
+*.log
+*.tmp
+
+# Archivos generados
+*.sqlite3
+*.db
