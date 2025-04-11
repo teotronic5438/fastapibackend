@@ -3,7 +3,7 @@ from app.routers import usuarios, alumnos
 from app.database import Base, engine
 
 app = FastAPI(
-    title="Tutorial de FastAPI Grupo 9",       
+    title="Tutorial de FastAPI - Elias Orihuela",       
     version="1.0.0",           
     description="Primera conexion con alembic, y sqlite", 
 )
